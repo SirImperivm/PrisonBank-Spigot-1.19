@@ -1,0 +1,47 @@
+settings:
+  waitingTime: 10
+  moneyItems:
+    material: SUNFLOWER
+    display-name: "&a&lSoldi"
+    display-lore:
+      - '$amount'
+      - '&7Tasto destro per ritirare'
+    glowing: true
+messages:
+  help:
+    bank-command:
+      - "&8&m                              "
+      - ""
+      - "&a/bank &7- &fApre la banca."
+      - ""
+      - "&8&m                              "
+    admin-command:
+      - "&8&m                              "
+      - ""
+      - "&a/adminbank reload &7- &fRicarica il plugin."
+      - ""
+      - "&8&m                              "
+  prefixes:
+    success: "&8[&a|&8] &7"
+    info: "&8[&e|&8] &7"
+    fail: "&8[&c|&8] &7"
+  success:
+    plugin:
+      reloaded: "Plugin ricaricato con successo."
+  info:
+    cooldown:
+      start: "Hai &e$time &7secondi per scrivere in chat quanti &e$balance&7 vuoi ritirare."
+      end: "Tempo scaduto."
+  errors:
+    no-perm: "Non hai accesso a questo comando."
+    no-console: "Questo comando è accessibile solo dagli utenti in gioco."
+    balance-not-enough: "Non hai abbastanza $balance&7."
+    cooldown:
+      already-in: "Sei già in cooldown."
+    invalid-message: "Il messaggio deve contenere solo numeri."
+permissions:
+  commands:
+    bank:
+      main: np.bank.use
+    adminbank:
+      main: np.bank.admin

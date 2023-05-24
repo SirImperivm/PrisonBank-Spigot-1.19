@@ -1,0 +1,52 @@
+guis:
+  bankGui:
+    title: "&9&lBanca"
+    size: 27
+    items:
+      close:
+        enabled: true
+        material: BARRIER
+        display-name: "&c&nChiudi&c."
+        lore:
+          - ""
+          - "&7Chiudi il menù."
+        slot: 22
+      money:
+        enabled: true
+        material: SUNFLOWER
+        display-name: "&eRitira Soldi"
+        lore:
+          - "&7<--- &e&lSOLDI &7--->"
+          - ""
+          - "&7Ricavi soldi dal tuo account:"
+          - "&fTasto Sinistro raccogli 100 per volta;"
+          - "&fTasto Destro raccogli 1k per volta;"
+          - ""
+          - "&7<--- &e&lSOLDI &7--->"
+        slot: 11
+      tokens:
+        enabled: true
+        material: MAGMA_CREAM
+        display-name: "&eRitira Tokens"
+        lore:
+          - "&7<--- &e&lTOKENS &7--->"
+          - ""
+          - "&7Ricavi tokens dal tuo account:"
+          - "&fTasto Sinistro raccogli 50 per volta;"
+          - "&fTasto Destro raccogli 500 per volta;"
+          - ""
+          - "&7<--- &e&lTOKENS &7--->"
+        slot: 13
+      gems:
+        enabled: true
+        material: EMERALD
+        display-name: "&eRitira Gemme"
+        lore:
+          - "&7<--- &e&lGEMME &7--->"
+          - ""
+          - "&7Ricavi gemme dal tuo account:"
+          - "&fTasto Sinistro raccogli 50 per volta;"
+          - "&fTasto Destro raccogli 500 per volta;"
+          - ""
+          - "&7<--- &e&lGEMME &7--->"
+        slot: 15

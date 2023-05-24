@@ -1,0 +1,9 @@
+name: PrisonBank
+version: '${project.version}'
+main: me.sirimperivm.spigot.Main
+api-version: 1.19
+depend:
+  - Vault
+commands:
+  bank:
+  adminbank:
